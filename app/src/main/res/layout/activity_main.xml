@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Username Field -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="335dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="28dp"
+        android:hint="Enter Username"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="335dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="335dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <!-- Phone Number Field -->
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="335dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <!-- Insert Button -->
+    <Button
+        android:id="@+id/button_insert"
+        android:layout_width="240dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:text="Insert"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="240dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:text="Delete"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@+id/button_insert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- View Button -->
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="240dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:text="View"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@+id/button_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="240dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:text="Update"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@+id/button_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

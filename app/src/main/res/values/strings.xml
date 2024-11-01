@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sqlite1</string>
+    <string name="enter_user_id">Enter User ID</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_user_email">Enter Email</string>
+    <string name="enter_user_password">Enter Password</string>
+    <string name="enter_user_phone">Enter Phone Number</string>
+    <string name="insert_button">Insert</string>
+</resources>
